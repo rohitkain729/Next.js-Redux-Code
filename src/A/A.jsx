@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 import './A.css';
-import { useDispatch,ASASA } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
 export const A = () => {
   const[name ,setName] = useState("");
@@ -14,9 +14,7 @@ export const A = () => {
 
   return (
     <div className='w-50 m-2'>
-      <div>A</div>
-        <span>A Component</span>
-        
+        <label htmlFor="">Component A</label>
         <div>
             <span>Name</span> <span><input className='form-control w-25' type="text" name="" id=""  onChange={(eve)=>{return setName(eve.target.value)}} /></span>
         </div>
