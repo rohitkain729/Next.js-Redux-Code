@@ -15,7 +15,8 @@ export const A = () => {
   return (
     <div className='w-50 m-2'>
       <div>A</div>
-        <label htmlFor="">Component A</label>
+        <span>A Component</span>
+        
         <div>
             <span>Name</span> <span><input className='form-control w-25' type="text" name="" id=""  onChange={(eve)=>{return setName(eve.target.value)}} /></span>
         </div>
