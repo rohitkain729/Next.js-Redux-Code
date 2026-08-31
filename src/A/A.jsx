@@ -1,4 +1,4 @@
-"use client"
+"use clientttttttttt"
 
 import React, { useState } from 'react'
 import './A.css';
@@ -14,6 +14,7 @@ export const A = () => {
 
   return (
     <div className='w-50 m-2'>
+      <div>AAAAAAAAAAAAAAAA</div>
         <label htmlFor="">Component A</label>
         <div>
             <span>Name</span> <span><input className='form-control w-25' type="text" name="" id=""  onChange={(eve)=>{return setName(eve.target.value)}} /></span>
