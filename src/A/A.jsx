@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 import './A.css';
-
+import { useDispatch } from 'react-redux';
 
 export const A = () => {
   const[name ,setName] = useState("");
